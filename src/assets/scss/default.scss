@@ -1,0 +1,21 @@
+// Bootstrap 
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Mixins
+@import "mixins/mixins";
+
+// Variables
+@import "variables";
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: none;
+}
